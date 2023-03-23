@@ -21,3 +21,8 @@ Este script utiliza la biblioteca Scapy de Python para realizar un escaneo de re
 # scan3
 
 Este script utiliza la biblioteca Scapy de Python para realizar una captura de tráfico de red en tiempo real y analizar los paquetes para detectar posibles amenazas. En este ejemplo, el script detecta escaneos de puertos SYN, ACK y FIN, así como consultas DNS maliciosas a un dominio malicioso específico.
+
+
+# redlocal
+
+Este script utiliza la biblioteca Scapy de Python para realizar un escaneo de red en busca de dispositivos conectados en una red local. El script envía un paquete ARP a todos los dispositivos en la red y analiza la respuesta para extraer la dirección IP y la dirección MAC de cada dispositivo.
