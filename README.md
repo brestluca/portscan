@@ -17,3 +17,7 @@ python port_scanner.py 192.168.1.1 --report report.json
 
 Este script utiliza la biblioteca Scapy de Python para realizar un escaneo de red básico y detectar hosts activos en una red. A continuación, escanea los puertos en cada host activo y enumera los puertos abiertos en cada host.
 
+
+# scan3
+
+Este script utiliza la biblioteca Scapy de Python para realizar una captura de tráfico de red en tiempo real y analizar los paquetes para detectar posibles amenazas. En este ejemplo, el script detecta escaneos de puertos SYN, ACK y FIN, así como consultas DNS maliciosas a un dominio malicioso específico.
